@@ -9,13 +9,15 @@ HTML{
     width: 100%;
     padding: 0px;
     font-size: 0px;
-   
-   
-}
-
+  
+   }
+   .titulo{
+       text-decoration: none;
+       color: white;
+   }
 .cabecera h2{
     width: 20%;
-    color:white;
+
     text-align: left;
     font-size: 2.2rem;
     margin: 0px;
@@ -26,8 +28,12 @@ HTML{
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     box-sizing: border-box;
+    line-height: 1.5;
+    display: inline-block;
+    position: relative;
+    top: 8px;
+ }
  
-}
 .cabecera nav{
     
     font-size: 0px;
@@ -58,14 +64,15 @@ HTML{
 }
 .menu a{
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
     color: white;
     transition: all 0,07s;
     text-align: center;
     height: 70px;
-    margin-top: 15px;
-    box-sizing: border-box;
+    margin-top: 20px;
+    width: 100%;
+
 
 }
 .menu li:hover{
@@ -75,6 +82,7 @@ HTML{
 .imagenes{
 
     margin: auto;
+    margin-top: 20px;
    overflow: hidden;
    width: 95%;
 }
@@ -112,4 +120,10 @@ main{
     70%{margin-left: -200%}
     95%{margin-left: -200%}
 
+}
+.article{
+    font-family: 'Noticia Text', serif;
+    font-size: 1.2rem;
+    width: 60%;
+    text-align: justify
 }
