@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Belleza&display=swap');
 HTML{
     font-size: 100%;
  
@@ -20,12 +20,22 @@ HTML{
  .izquierda {
     width: 60%;
     margin-right: 30px;
+    font-family: 'Belleza', sans-serif;
 }
  .derecha {
     width: 30%;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.5rem;
+}
+h3{
+    font-size: 2rem;
 }
 .cabecera{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+
 }
 
 .cabecera h2{
@@ -34,31 +44,24 @@ HTML{
     text-align: left;
     font-size: 2.2rem;
     margin: 0px;
-    margin-right: 35%;
-    margin-left: 5%;
-    display: inline-block;
     line-height: normal;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     box-sizing: border-box;
     margin-top: 10px;
+    margin-left: 20px;
  
 }
 .cabecera nav{
     
     font-size: 0px;
     text-decoration: none;
-    display: inline-block;
     width: 40%;
     height: 100%;
     box-sizing: border-box;
-
-
     
 }
-.menu{
-    height: 100%;
-}
+
 
 .menu li{
     display: inline-block;
@@ -66,7 +69,9 @@ HTML{
     background: black;
     text-align: center;
     box-sizing: border-box;
-    height: 100%;
+
+    font-family: 'Belleza', sans-serif;
+    margin-top: 15px;
     
    
    
@@ -74,19 +79,19 @@ HTML{
 }
 .menu a{
 
-    display: inline-block;
-    font-size: 2rem;
+
+    font-size: 1.7rem;
     text-decoration: none;
     color: white;
     transition: all 0,07s;
     text-align: center;
     height: 70px;
-    margin-top: 15px;
+ 
     box-sizing: border-box;
 
 }
 .menu li:hover{
-    border: 0.5px solid white;
+
     transform: scale(1.1);
 }
 .imagenes{
