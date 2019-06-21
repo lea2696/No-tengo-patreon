@@ -13,6 +13,21 @@ HTML{
    
 }
 
+.encabezado{
+    display: flex;
+
+}
+ .izquierda {
+    width: 60%;
+    margin-right: 30px;
+}
+ .derecha {
+    width: 30%;
+}
+.cabecera{
+    display: flex;
+}
+
 .cabecera h2{
     width: 20%;
     color:white;
@@ -26,6 +41,7 @@ HTML{
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     box-sizing: border-box;
+    margin-top: 10px;
  
 }
 .cabecera nav{
@@ -51,12 +67,13 @@ HTML{
     text-align: center;
     box-sizing: border-box;
     height: 100%;
-    border: 0.5px solid white;
+    
    
    
 
 }
 .menu a{
+
     display: inline-block;
     font-size: 2rem;
     text-decoration: none;
@@ -69,7 +86,7 @@ HTML{
 
 }
 .menu li:hover{
-   
+    border: 0.5px solid white;
     transform: scale(1.1);
 }
 .imagenes{
