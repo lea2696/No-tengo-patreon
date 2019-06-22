@@ -3,60 +3,48 @@ HTML{
     font-size: 100%;
  
 }
+body{
+    background-image: url("https://digopalabratxt.files.wordpress.com/2017/07/caracas.jpg?w=788");
+}
+header{
+    width: 80%;
+    background: white;
+    display: block;
+   margin: auto;
+}
 .cabecera{
     background: black;
     height: 70px;
     width: 100%;
     padding: 0px;
     font-size: 0px;
-   
-   
-}
-
-.encabezado{
     display: flex;
-
-}
- .izquierda {
-    width: 60%;
-    margin-right: 30px;
-    font-family: 'Belleza', sans-serif;
-}
- .derecha {
-    width: 30%;
-    font-family: 'Belleza', sans-serif;
-    font-size: 1.5rem;
-}
-h3{
-    font-size: 2rem;
-}
-.cabecera{
-    display: flex;
-    width: 100%;
     justify-content: space-between;
-
-
+   
+   
 }
+
 
 .cabecera h2{
-    width: 20%;
+
     color:white;
     text-align: left;
     font-size: 2.2rem;
-    margin: 0px;
-    line-height: normal;
+
+   margin-left: 20px;
+ 
+   margin-top: 15px;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     box-sizing: border-box;
-    margin-top: 10px;
-    margin-left: 20px;
+
  
 }
 .cabecera nav{
     
     font-size: 0px;
     text-decoration: none;
-    width: 40%;
+    margin-top: 0px;
     height: 100%;
     box-sizing: border-box;
     
@@ -66,12 +54,12 @@ h3{
 .menu li{
     display: inline-block;
     width: 25%;
-    background: black;
+    
     text-align: center;
     box-sizing: border-box;
-
+    padding: 25px;
     font-family: 'Belleza', sans-serif;
-    margin-top: 15px;
+    
     
    
    
@@ -121,11 +109,7 @@ h3{
 
 }
 
-main{
-    margin: 100px;
-    margin-top: 10px;
-    background: white;
-}
+
 @keyframes cambio {
     0% {margin-left: 0;}
     30% {margin-left: 0;}
@@ -135,6 +119,33 @@ main{
     95%{margin-left: -200%}
 
 }
+
+main{
+    display: block;
+ width: 80%;
+ margin: auto;
+ background: white;
+}
+.encabezado{
+    display: flex;
+
+}
+
+ .izquierda {
+    width: 60%;
+    margin-right: 30px;
+    font-family: 'Belleza', sans-serif;
+    padding: 15px;
+}
+ .derecha {
+    width: 30%;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
 .article{
     text-align: justify;
     padding: 30px;
@@ -145,4 +156,13 @@ main{
     display: block;
   margin: auto;
   margin-bottom: 15px;
+}
+.video{
+    margin: 20px;
+}
+footer{
+    background-color: rgba(51, 51, 51, 0.3);
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
 }
