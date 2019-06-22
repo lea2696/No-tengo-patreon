@@ -27,16 +27,20 @@ header{
 
 .cabecera h2{
 
-    color:white;
+
     text-align: left;
     font-size: 2.2rem;
     
    margin-left: 20px;
-    text-decoration: none;
+ 
    margin-top: 15px;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     box-sizing: border-box;
+}
+.cabecera h2 a{
+    text-decoration: none;
+    color:white;
 }
  
 .cabecera nav{
