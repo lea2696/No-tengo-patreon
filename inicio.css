@@ -1,7 +1,16 @@
-/*Para el responsive cuando el menu y el logo se deformen centrar el logo y en una siguiente columna colcoar el menu */
+@import url('https://fonts.googleapis.com/css?family=Belleza&display=swap');
 HTML{
     font-size: 100%;
  
+}
+body{
+    background-image: url("https://digopalabratxt.files.wordpress.com/2017/07/caracas.jpg?w=788");
+}
+header{
+    width: 80%;
+    background: white;
+    display: block;
+   margin: auto;
 }
 .cabecera{
     background: black;
@@ -9,74 +18,66 @@ HTML{
     width: 100%;
     padding: 0px;
     font-size: 0px;
-  
-   }
-   .titulo{
-       text-decoration: none;
-       color: white;
-   }
-.cabecera h2{
-    width: 20%;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
 
+
+.cabecera h2{
+
+    color:white;
     text-align: left;
     font-size: 2.2rem;
-    margin: 0px;
-    margin-right: 35%;
-    margin-left: 5%;
-    display: inline-block;
-    line-height: normal;
+
+   margin-left: 20px;
+ 
+   margin-top: 15px;
     font-family: 'Anton', sans-serif;
     font-weight: bold;
     box-sizing: border-box;
-    line-height: 1.5;
-    display: inline-block;
-    position: relative;
-    top: 8px;
- }
  
 .cabecera nav{
     
     font-size: 0px;
     text-decoration: none;
-    display: inline-block;
-    width: 40%;
+    margin-top: 0px;
     height: 100%;
     box-sizing: border-box;
-
-
     
 }
-.menu{
-    height: 100%;
-}
+
 
 .menu li{
     display: inline-block;
     width: 25%;
-    background: black;
+    
     text-align: center;
     box-sizing: border-box;
-    height: 100%;
-    border: 0.5px solid white;
+    padding: 25px;
+    font-family: 'Belleza', sans-serif;
+    
+    
    
    
 
 }
 .menu a{
-    display: inline-block;
-    font-size: 1.5rem;
+
+
+    font-size: 1.7rem;
     text-decoration: none;
     color: white;
     transition: all 0,07s;
     text-align: center;
     height: 70px;
-    margin-top: 20px;
-    width: 100%;
-
+ 
+    box-sizing: border-box;
 
 }
 .menu li:hover{
-   
+
     transform: scale(1.1);
 }
 .imagenes{
@@ -107,11 +108,7 @@ HTML{
 
 }
 
-main{
-    margin: 100px;
-    margin-top: 10px;
-    background: white;
-}
+
 @keyframes cambio {
     0% {margin-left: 0;}
     30% {margin-left: 0;}
@@ -121,9 +118,50 @@ main{
     95%{margin-left: -200%}
 
 }
-.article{
-    font-family: 'Noticia Text', serif;
-    font-size: 1.2rem;
+
+main{
+    display: block;
+ width: 80%;
+ margin: auto;
+ background: white;
+}
+.encabezado{
+    display: flex;
+
+}
+
+ .izquierda {
     width: 60%;
-    text-align: justify
+    margin-right: 30px;
+    font-family: 'Belleza', sans-serif;
+    padding: 15px;
+}
+ .derecha {
+    width: 30%;
+    font-family: 'Belleza', sans-serif;
+    font-size: 1.2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.article{
+    text-align: justify;
+    padding: 30px;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+}
+.article img{
+    display: block;
+  margin: auto;
+  margin-bottom: 15px;
+}
+.video{
+    margin: 20px;
+}
+footer{
+    background-color: rgba(51, 51, 51, 0.3);
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
 }
