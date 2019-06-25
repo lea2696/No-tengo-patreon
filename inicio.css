@@ -5,6 +5,9 @@ HTML{
 }
 body{
     background-image: url("https://digopalabratxt.files.wordpress.com/2017/07/caracas.jpg?w=788");
+    background-size: contain;
+
+    background-attachment: fixed;
 }
 header{
     width: 80%;
